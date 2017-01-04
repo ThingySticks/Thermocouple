@@ -1,33 +1,36 @@
 {
-'Version':'1.1',
-'Product':'Thermocouple',
-parts: [
+"Version":"1.1",
+"Product":"Thermocouple",
+"parts": [
 
-{'name':'C1', 'value':'0.01uF', case: '0805', 'FarnellPart':['9406352','2666303'], 'price':0.0276},
-{'name':'C2', 'value':'0.1uF', case: '0805', 'FarnellPart':['1759167','2310668', '2310707'], 'price':0.0045},
-{'name':'C3', 'value':'0.1uF', case: '0805', 'FarnellPart':['1759167','2310668', '2310707'], 'price':0.0045},
-{'name':'C4', 'value':'0.1uF', case: '0805', 'FarnellPart':['1759167','2310668', '2310707'], 'price':0.0045},
+{"name":"C1", "value":"0.01uF", "case": "0805", "FarnellPart":["9406352","2666303"], "price":0.0276},
+{"name":"C2", "value":"0.1uF", "case": "0805", "FarnellPart":["1759167","2310668", "2310707"], "price":0.0045},
+{"name":"C3", "value":"0.1uF", "case": "0805", "FarnellPart":["1759167","2310668", "2310707"], "price":0.0045},
+{"name":"C4", "value":"0.1uF", "case": "0805", "FarnellPart":["1759167","2310668", "2310707"], "price":0.0045},
 
-{'name':'R1', 'value':'1k5', case: '1206', 'comment': 'bottom layer - optional', 'FarnellPart':['9335951','2129658'], 'price':0.0013},
-{'name':'R1', 'value':'1k5', case: '0805', 'comment': 'bottom layer - optional', 'FarnellPart':['9332600','2129125'], 'price':0.0008},
-{'name':'D1', 'value':'reverse LED - Green.', 'comment': 'bottom layer - optional', 'FarnellPart':'2217905', 'price':0.111 },
-{'name':'D1', 'value':'reverse LED - Blue.', 'comment': 'bottom layer - optional', 'FarnellPart':'2217907', 'price':0.23 },
+{"name":"R1", "value":"1k5", "case": "1206", "comment": "bottom layer - optional", "FarnellPart":["9335951","2129658"], "price":0.0013},
+{"name":"R1", "value":"1k5", "case": "0805", "comment": "bottom layer - optional", "FarnellPart":["9332600","2129125"], "price":0.0008},
+{"name":"D1", "value":"reverse LED - Green.", "comment": "bottom layer - optional", "FarnellPart":"2217905", "price":0.111 },
+{"name":"D1", "value":"reverse LED - Blue.", "comment": "bottom layer - optional", "FarnellPart":"2217907", "price":0.23 },
 
-{'name':'R3', 'value':'4k7', case: '0805', 'FarnellPart':['9333266','2129167'], 'MfgPartNo':'MC01W080514k7', 'price':0.0009},
-{'name':'R4', 'value':'4k7', case: '0805', 'FarnellPart':['9333266','2129167'], 'MfgPartNo':'MC01W080514k7', 'price':0.0009},
-{'name':'R5', 'value':'10k', case: '0805', 'FarnellPart':['9332391','2129195'], 'MfgPartNo':'MC01W0805110k', 'price':0.0009},
+{"name":"R3", "value":"4k7", "case": "0805", "FarnellPart":["9333266","2129167"], "MfgPartNo":"MC01W080514k7", "price":0.0009},
+{"name":"R4", "value":"4k7", "case": "0805", "FarnellPart":["9333266","2129167"], "MfgPartNo":"MC01W080514k7", "price":0.0009},
+{"name":"R5", "value":"10k", "case": "0805", "FarnellPart":["9332391","2129195"], "MfgPartNo":"MC01W0805110k", "price":0.0009},
 
-{'name':'L5', 'value':'Ferrite Bead, 120 ohm, 0805 [2012 Metric], ILB Series, 300 mA, 0.15 ohm, ± 25%', case: '0805', 'FarnellPart':'1653749', 'price':0.097},
-{'name':'L6', 'value':'Ferrite Bead, 120 ohm, 0805 [2012 Metric], ILB Series, 300 mA, 0.15 ohm, ± 25%', case: '0805', 'FarnellPart':'1653749','AltFarnellPart':'1515621','comment':'Alt part is 470 ohm as per SparkFun design'},
+{"name":"L5", "value":"Ferrite Bead, 120 ohm, 0805 [2012 Metric], ILB Series, 300 mA, 0.15 ohm, ± 25%", "case": "0805", "FarnellPart":"1653749", "price":0.097},
+{"name":"L6", "value":"Ferrite Bead, 120 ohm, 0805 [2012 Metric], ILB Series, 300 mA, 0.15 ohm, ± 25%", "case": "0805", "FarnellPart":"1653749","AltFarnellPart":"1515621","comment":"Alt part is 470 ohm as per SparkFun design"},
 
 
-{'name':'CONN1', 'value':'USB connector', 'Price': '', 'FarnellPart':'2476092', 'MfgPartNo':'MC000991', 'price':0.35 },
-{'name':'U1', 'value':'MAX31855K', 'FarnellPart':'2515622', 'price':4.52},
-{'name':'U2', 'value':'Photon', 'comment':'User supplied. Photon, Electron or Bluz'},
-{'name':'U2a', 'value':'12 Way Header',  'FarnellPart':'1593465' 'comment':'User supplied. Photon, Electron or Bluz', 'quantity':'2', 'price':0.0911'},
-{'name':'U2a', 'value':'18 Way Header', 'FarnellPart':'1801220', 'comment':'Optional, use for Electron', 'quantity':'2', 'price':1.11},
-{'name':'U3', 'value':'24LC512', 'FarnellPart':'1801220', 'price':0.97},
+{"name":"CONN1", "value":"USB connector", "FarnellPart":"2476092", "MfgPartNo":"MC000991", "price":0.35 },
+{"name":"U1", "value":"MAX31855K", "FarnellPart":"2515622", "price":4.52},
+{"name":"U2", "value":"Photon", "comment":"User supplied. Photon, Electron or Bluz"},
+{"name":"U2a", "value":"12 Way Header",  "FarnellPart":"1593465", "comment":"User supplied. Photon, Electron or Bluz", "quantity":"2", "price":0.0911},
+{"name":"U2a", "value":"18 Way Header", "FarnellPart":"1801220", "comment":"Optional, use for Electron", "quantity":"2", "price":1.11},
+{"name":"U3", "value":"24LC512", "FarnellPart":"1801220", "price":0.97},
 
-{'name':'JP1', 'value':'2 way screw connector', 'comment':'Optional - do not fit'},
-{'name':'JP2', 'value':'K TYpe Thermocouple Socket', 'FarnellPart':'2347140', 'price':2.54},
+{"name":"JP1", "value":"2 way screw connector", "comment":"Optional - do not fit"},
+{"name":"JP2", "value":"K TYpe Thermocouple Socket", "FarnellPart":"2347140", "price":2.54},
+{"name":"JP2b", "value":"M2.5 Countersunk machine screw 10mm", "FarnellPart":"149637", "price":0.0316},
+{"name":"JP2b", "value":"M2.5 Countersunk machine screw 12mm", "FarnellPart":"149638", "price":0.0131},
+{"name":"JP2c", "value":"M2.5 nut", "FarnellPart":"1419446", "price":0.0131}
 ]}
