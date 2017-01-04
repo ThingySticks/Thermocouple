@@ -17,9 +17,6 @@ bool hasProbe = false;
 bool isCalibrated = false;
 
 int calibrate(String args);
-int measure(String args);
-int startTimer(String args);
-int stopTimer(String args);
 
 void setup() {
     
@@ -29,9 +26,6 @@ void setup() {
     thermocouple.init();
     
     Particle.function("calibrate", calibrate);
-    Particle.function("measure", measure);
-    Particle.function("startTimer", measure);
-    Particle.function("stopTimer", measure);
     
     Particle.publish("Status", "Thermocouple V0.1.0");
     
@@ -44,7 +38,6 @@ void loop() {
     digitalWrite(oshLogoLedPin, HIGH);
     delay(1000);
     
-    //readVin();
     String senml = "{e:[";
     
     // Read the thermocouple temperatures.
@@ -142,17 +135,4 @@ int calibrate(String args) {
     }
     
     return 1;
-}
-
-// Take a measurement
-int  measure(String args) {
-    return 0;
-}
-
-int startTimer(String args) {
-    return 0;
-}
-
-int stopTimer(String args) {
-    return 0;
 }
